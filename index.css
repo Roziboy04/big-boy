@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+}
+.image{
+    width: 100%;
+    filter: grayscale(100%);
+
+}
+.image:hover{
+    filter: none;
+    transition: 1s;
+}
+.bigboy{
+    width: 350px;
+    box-shadow:  2px 2px 10px black;
+    justify-content: center;
+}
+.text{
+    padding: 10px;
+}
+.title{
+    margin: 0;
+    padding: 0;
+}
+.ota{
+    display: flex;
+    /* margin-top: 20px; */
+   justify-content: space-around;
+   margin: 10px;
+}
+.hello{
+  width: 100px;  
+ padding: 8px;
+ /* margin-left: 70px; */
+ margin: 8px 120px;
+ border-radius: 5px;
+border: none;
+ color: wheat;
+ background: red;
+}
+    
